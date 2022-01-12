@@ -1,0 +1,16 @@
+Altitude de départ à saisir !
+Surface à saisir !
+
+
+Température | on perd 1 dègres tout les 100m
+
+Vitesse | vitesse terminale (parachute) = environ  50 m/s donc 180 km/h
+
+Pression [Pa] | Force[N] / Surface [m2]
+
+Temps | Altititude départ en mètre Diviser par 50
+
+Humidité |  pas calculable sans capteur
+
+Altitude | Toute les secondes on perd 50 mètres (altitude de départ à saisir !)
+

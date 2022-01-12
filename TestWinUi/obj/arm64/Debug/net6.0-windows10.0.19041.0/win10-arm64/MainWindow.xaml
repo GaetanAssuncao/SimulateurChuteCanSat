@@ -1,0 +1,121 @@
+﻿<Window
+    x:Class="TestWinUi.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestWinUi"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        
+        <StackPanel Orientation = "Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Width="1300">
+
+            <StackPanel Orientation = "Horizontal">
+                <TextBlock Margin = "5" Width = "150" Height = "30"> Altitude de départ</TextBlock>
+                <TextBox x:ConnectionId='23' x:Name="txt_AltitudeDepart" Width="100" ></TextBox>
+                <TextBlock Margin = "5" Width = "150" Height = "30"> Mètre</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation = "Horizontal">
+                <TextBlock Margin = "5" Width = "150" Height = "30"> Surface de la cannette</TextBlock>
+                <TextBox x:ConnectionId='22' x:Name="txt_Surface" Width="100" ></TextBox>
+                <TextBlock Margin = "5" Width = "150" Height = "30"> cm carré</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation = "Horizontal">
+                <TextBlock Margin = "5" Width = "150" Height = "30"> Température de départ</TextBlock>
+                <TextBox x:ConnectionId='21' x:Name="txt_Temperature" Width="100" ></TextBox>
+                <TextBlock Margin = "5" Width = "150" Height = "30"> Degrée</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation = "Horizontal">
+                <TextBlock Margin = "5" Width = "150" Height = "30"> Humidité</TextBlock>
+                <TextBox x:ConnectionId='20' x:Name="txt_Humidite" Width="100" ></TextBox>
+                <TextBlock Margin = "5" Width = "150" Height = "30"> %</TextBlock>
+            </StackPanel>
+
+            <StackPanel Orientation = "Horizontal">
+                <TextBlock Margin = "5" Width = "150" Height = "30"> SerialPort</TextBlock>
+                <TextBox x:ConnectionId='19' x:Name="txt_COM" Width="100" ></TextBox>
+                <TextBlock Margin = "5" Width = "150" Height = "30"> (exemple : COM4)</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation = "Horizontal">
+                <TextBlock Margin = "5" Width = "150" Height = "30"> Milliseconds</TextBlock>
+                <Slider x:ConnectionId='18' x:Name="sld_milliseconds" Minimum="100" Maximum="1000" StepFrequency="100" Width="100"></Slider>
+            </StackPanel>
+            <StackPanel Margin="10" Orientation = "Horizontal">
+
+                
+                <RadioButton x:ConnectionId='15' Name="rbtn_realiste" IsChecked="True"> Réaliste</RadioButton>
+                <RadioButton x:ConnectionId='16' Name="rbtn_rapide">Rapide</RadioButton>
+                <RadioButton x:ConnectionId='17' Name="rbtn_Tresrapide">Trés rapide</RadioButton>
+
+            </StackPanel>
+            
+            <Button x:ConnectionId='14' x:Name="btnSave"                       VerticalAlignment="Center">Save</Button>
+
+        </StackPanel>
+
+        <StackPanel Orientation = "Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+
+            <StackPanel Orientation = "Horizontal">
+                <TextBlock Margin = "5" Width = "150" Height = "30"> compteur de 100ms</TextBlock>
+                <TextBlock x:ConnectionId='13' x:Name="txt_compteur" Width="100" Text="{Binding Compteur}"  ></TextBlock>
+            </StackPanel>
+
+            <StackPanel Orientation = "Horizontal">
+                <TextBlock  Margin = "5" Width = "150" Height = "30"> température</TextBlock>
+                <TextBlock x:ConnectionId='12' x:Name="txt_temperature" Width="100" Text="{Binding Temperature}"></TextBlock>
+            </StackPanel>
+
+            <StackPanel Orientation = "Horizontal">
+                <TextBlock Margin = "5" Width = "150" Height = "30" > pression</TextBlock>
+                <TextBlock x:ConnectionId='11' x:Name="txt_pression" Width="100" Text="{Binding Pression}" ></TextBlock>
+            </StackPanel>
+
+            <StackPanel Orientation = "Horizontal">
+                <TextBlock   Margin = "5" Width = "150" Height = "30"> humidité</TextBlock>
+                <TextBlock x:ConnectionId='10' x:Name="txt_humidite" Width="100" Text="{Binding Humidite}" ></TextBlock>
+            </StackPanel>
+
+            <StackPanel Orientation = "Horizontal">
+                <TextBlock   Margin = "5" Width = "150" Height = "30"> altitude</TextBlock>
+                <TextBlock x:ConnectionId='9' x:Name="txt_altitude" Width="100" Text="{Binding Altitude}"></TextBlock>
+            </StackPanel>
+            
+
+
+            <StackPanel Orientation = "Horizontal">
+                <Button x:ConnectionId='6' x:Name="btnStart"                        IsEnabled="False" VerticalAlignment="Center">Start</Button>
+                <Button x:ConnectionId='7' x:Name="btnReset"                        VerticalAlignment="Center">Reset</Button>
+                <Button x:ConnectionId='8' x:Name="btnTest"                       VerticalAlignment="Center">Test</Button>
+            </StackPanel>
+
+            <StackPanel Orientation = "Horizontal" >
+                <TextBlock x:ConnectionId='4' x:Name="txtGet" Margin = "5" VerticalAlignment="Center"></TextBlock>
+                <TextBlock x:ConnectionId='5' x:Name="txtCheckIsOpen" Width="100" VerticalAlignment="Center" Text=" "></TextBlock>
+            </StackPanel>
+
+
+        </StackPanel>
+
+        <Canvas x:ConnectionId='2' x:Name="cnvImg" Width="400"  Height="900" HorizontalAlignment="Right"  >
+
+            <Image x:ConnectionId='3' x:Name="imgCanette" Width="100" Margin="100">
+                <Image.Source>
+                    <BitmapImage DecodePixelWidth="50"  UriSource="./Assets/images/canette.png" />
+                </Image.Source>
+            </Image>
+
+            
+
+        </Canvas>
+
+        <Canvas Width="400" Height="0" HorizontalAlignment="Right"  >
+            <Rectangle Fill="Black" Height="5" Width="300" Canvas.Top="160">
+
+            </Rectangle>
+
+        </Canvas>
+
+    </Grid>
+</Window>
+

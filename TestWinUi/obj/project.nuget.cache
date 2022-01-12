@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "RqchMC/hiJ9S2jo5wHrf6f6aMZZ6A4Ppfc/gwV+xO9/bhw9qiuhNS6le/caRNWySyeSnBu81eZ+pBJfAZXfm4w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cp-18gaa\\source\\repos\\SimulateurChuteCanSat\\TestWinUi\\TestWinUi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\microsoft.windowsappsdk\\1.0.0\\microsoft.windowsappsdk.1.0.0.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\runtime.native.system.io.ports\\6.0.0\\runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.osx-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\6.0.0\\runtime.osx-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\system.io.ports\\6.0.0\\system.io.ports.6.0.0.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.0\\microsoft.netcore.app.runtime.win-x64.6.0.0.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.0\\microsoft.aspnetcore.app.runtime.win-x64.6.0.0.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\6.0.0\\microsoft.netcore.app.runtime.win-arm64.6.0.0.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.0\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.0.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.21\\microsoft.windows.sdk.net.ref.10.0.19041.21.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\6.0.0\\microsoft.aspnetcore.app.runtime.win-arm64.6.0.0.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.0\\microsoft.netcore.app.runtime.win-x86.6.0.0.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\6.0.0\\microsoft.windowsdesktop.app.runtime.win-arm64.6.0.0.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.0\\microsoft.aspnetcore.app.runtime.win-x86.6.0.0.nupkg.sha512",
+    "C:\\Users\\cp-18gaa\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.0\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

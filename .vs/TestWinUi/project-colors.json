@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a275fdb0-410b-4f02-a032-a7df4d5ed1c8": {
+      "ProjectGuid": "a275fdb0-410b-4f02-a032-a7df4d5ed1c8",
+      "DisplayName": "TestWinUi",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
